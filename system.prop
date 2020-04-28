@@ -93,7 +93,10 @@ ro.nfc.port=I2C
 # Perf
 ro.vendor.qti.sys.fw.bservice_enable=true
 
-# Radio
+# Pre-Rendering
+ro.vendor.perf.scroll_opt=true
+
+#Radio
 DEVICE_PROVISIONED=1
 persist.data.df.dev_name=rmnet_usb0
 persist.sys.log.radio=20|10
