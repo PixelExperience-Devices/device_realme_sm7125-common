@@ -256,6 +256,13 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.2.vendor
 
+#Product Properties (CAF)
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.soc.manufacturer=QTI
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.soc.model=SM7125
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service

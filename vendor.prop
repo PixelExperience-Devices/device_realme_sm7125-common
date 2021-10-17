@@ -179,3 +179,7 @@ persist.vendor.sensors.allow_non_default_discovery=true
 
 # Wi-Fi
 wifi.aware.interface=wifi-aware0
+
+# SOC
+ro.soc.manufacturer=QTI
+ro.soc.model=SM7125
