@@ -183,3 +183,6 @@ wifi.aware.interface=wifi-aware0
 # SOC
 ro.soc.manufacturer=QTI
 ro.soc.model=SM7125
+
+# Usb
+persist.vendor.usb.config.extra=none
