@@ -52,7 +52,7 @@ odm                                                    /odm                     
 # External storage
 /devices/platform/soc/8804000.sdhci/mmc_host*          /storage/sdcard1          vfat    nosuid,nodev                                       wait,voldmanaged=sdcard1:auto
 /devices/platform/soc/1da4000.ufshc_card/host*         /storage/sdcard1          vfat    nosuid,nodev                                       wait,voldmanaged=sdcard1:auto
-/devices/platform/soc/*.ssusb/*.dwc3/xhci-hcd.*.auto*  /storage/usbotg           vfat    nosuid,nodev                                       wait,voldmanaged=usbotg:auto
+/devices/platform/soc/*.ssusb/*.dwc3/xhci-hcd.*.auto*  auto			 auto    defaults                                           wait,voldmanaged=usbotg:auto
 
 # Firmware partitions
 /dev/block/bootdevice/by-name/persist                  /mnt/vendor/persist       ext4    noatime,nosuid,nodev,barrier=1                     wait
