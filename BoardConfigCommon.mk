@@ -26,6 +26,7 @@ DEXPREOPT_GENERATE_APEX_IMAGE := true
 # Build
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Architecture
 TARGET_ARCH := arm64
@@ -212,8 +213,8 @@ VENDOR_SECURITY_PATCH := 2020-10-01
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
-BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
-#BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
+
+BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
 # Treble
 BOARD_VNDK_VERSION := current
