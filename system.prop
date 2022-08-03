@@ -41,6 +41,11 @@ ro.camera.temperature.limit=470
 persist.vendor.camera.light_ae.enable=1
 vendor.camera.aux.packagelist=com.google.android.GoogleCamera,org.codeaurora.snapcam
 persist.vendor.camera.privapp.list=com.google.android.GoogleCamera,org.codeaurora.snapcam
+persist.camera.eis.enable=1
+persist.camera.is_mode=4
+persist.vendor.camera.oissr.debug=1
+vendor.debug.camera.eisv2enable=1
+vendor.debug.camera.eisv3enable=1
 
 # CNE
 persist.vendor.cne.feature=1
