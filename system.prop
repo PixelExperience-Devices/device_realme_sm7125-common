@@ -32,6 +32,16 @@ persist.vendor.service.bdroid.soc.alwayson=true
 persist.vendor.service.bt.iotinfo.report.enable=true 
 persist.vendor.btstack.aac_frm_ctl.enabled=true
 
+# Camera
+ro.camera.hfr.enable=1
+ro.camera.relight.enable=0
+ro.camera.attr.detect.enable=1
+ro.camera.notify_nfc=1
+ro.camera.temperature.limit=470
+persist.vendor.camera.light_ae.enable=1
+vendor.camera.aux.packagelist=com.google.android.GoogleCamera,org.codeaurora.snapcam
+persist.vendor.camera.privapp.list=com.google.android.GoogleCamera,org.codeaurora.snapcam
+
 # CNE
 persist.vendor.cne.feature=1
 
