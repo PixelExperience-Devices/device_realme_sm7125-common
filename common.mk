@@ -268,7 +268,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service
+    android.hardware.power-service-qti
 
 # QTI FWK Detect
 PRODUCT_PACKAGES += \
@@ -496,10 +496,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.2.vendor \
     android.hardware.graphics.composer@2.3.vendor \
     android.hardware.graphics.composer@2.4.vendor \
-    android.hardware.health.storage@1.0.vendor \
-    android.hardware.health@1.0.vendor \
-    android.hardware.health@2.0.vendor \
-    android.hardware.health@2.1.vendor \
     android.hardware.input.classifier@1.0.vendor \
     android.hardware.input.common@1.0.vendor \
     android.hardware.ir@1.0.vendor \
@@ -518,11 +514,6 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc@1.1.vendor \
     android.hardware.nfc@1.2.vendor \
     android.hardware.oemlock@1.0.vendor \
-    android.hardware.power.stats@1.0.vendor \
-    android.hardware.power@1.0.vendor \
-    android.hardware.power@1.1.vendor \
-    android.hardware.power@1.2.vendor \
-    android.hardware.power@1.3.vendor \
     android.hardware.radio.config@1.0.vendor \
     android.hardware.radio.config@1.1.vendor \
     android.hardware.radio.config@1.2.vendor \
@@ -583,4 +574,9 @@ PRODUCT_PACKAGES += \
     libadf.vendor \
     libstdc++.vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
+    android.hardware.health.storage@1.0.vendor \
+    android.hardware.health@1.0.vendor \
+    android.hardware.health@2.0.vendor \
+    android.hardware.health@2.1.vendor \
+    android.hardware.power.stats@1.0.vendor \
     libtinyxml.vendor
