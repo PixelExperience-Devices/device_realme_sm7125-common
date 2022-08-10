@@ -189,6 +189,7 @@ TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 
 # Power
 TARGET_POWERHAL_BOOST_EXT := $(COMMON_PATH)/power/boost-ext.cpp
+TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/power/mode-ext.cpp
 
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
