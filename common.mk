@@ -308,6 +308,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
+#performance critical applications
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
+
 # QTI FWK Detect
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor \
