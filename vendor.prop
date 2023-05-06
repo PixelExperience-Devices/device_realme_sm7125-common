@@ -202,3 +202,8 @@ vendor.usb.use_gadget_hal=0
 
 # Seamless transfer
 sys.fflag.override.settings_seamless_transfer=true
+
+# SkiaGL
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
+renderthread.skia.reduceopstasksplitting=true
