@@ -329,10 +329,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RealmeParts
 
-# RenderScript HAL
-PRODUCT_PACKAGES += \
-    android.hardware.renderscript@1.0-impl
-
 # RIL
 PRODUCT_PACKAGES += \
     libjson \
