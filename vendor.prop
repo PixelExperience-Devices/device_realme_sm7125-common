@@ -123,6 +123,7 @@ vendor.display.disable_ui_3d_tonemap=1
 vendor.display.qdcm.mode_combine=1
 vendor.display.enable_default_color_mode=1
 vendor.gralloc.disable_ubwc=0
+vendor.display.disable_metadata_dynamic_fps=1
 
 # FM
 vendor.hw.fm.init=0
